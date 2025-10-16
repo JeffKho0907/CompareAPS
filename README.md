@@ -1,12 +1,27 @@
-# ARC (Adaptive and Reliable Classification)
 
-This package provides some statistical wrappers for machine learning classification tools in order to construct prediction sets for the label of a new test point with provably valid marginal coverage and approximate conditional coverage.
 
-Accompanying paper (https://papers.nips.cc/paper/2020/hash/244edd7e85dc81602b7615cd705545f5-Abstract.html):
+Accompanying paper:
 
     "Classification with Valid and Adaptive Coverage"
     Y. Romano, M. Sesia, E. Candès
     NeurIPS 2020 (spotlight).
+    https://papers.nips.cc/paper/2020/hash/244edd7e85dc81602b7615cd705545f5-Abstract.html
+
+
+    "Uncertainty Sets for Image Classifiers Using Conformal Prediction"
+     Anastasios N. Angelopoulos∗†, Stephen Bates∗
+    , Jitendra Malik, & Michael I. Jordan
+    OpenReview (2021)
+    https://doi.org/10.48550/arXiv.2009.14193
+
+    "Conformal Prediction for Deep Classifier via Label Ranking"
+    Jianguo Huang, Huajun Xi, Linjun Zhang,
+    Huaxiu Yao, Yue Qiu and Hongxin Wei
+    OpenReview (2024)
+
+
+
+
     
 
 ## Contents
@@ -16,6 +31,8 @@ Accompanying paper (https://papers.nips.cc/paper/2020/hash/244edd7e85dc81602b761
  - `SYNTHETIC.py` Code for synthetic data experiment
  - `REAL.py` Code for real data experiment
  - `IMAGENET.py` Code for ImageNet experiment
+ - `conformal.pt` Code used for RAPS
+ - `util.py` Code used for RAPS
   
 ## Third-party packages
 
@@ -57,10 +74,12 @@ This experiment uses the original code from the paper:
     NeurIPS 2020 (spotlight).
 
 (https://doi.org/10.48550/arXiv.2009.14193):
+
     "Uncertainty Sets for Image Classifiers using Conformal Prediction"
     Anastasios N. Angelopoulos∗†, Stephen Bates∗
     , Jitendra Malik, & Michael I. Jordan
-    ICLR 2021
+    OpenReview (2021)
+
 
 and the code from the library torchcp(https://github.com/ml-stat-Sustech/TorchCP)
 
@@ -74,4 +93,5 @@ and the code from the library torchcp(https://github.com/ml-stat-Sustech/TorchCP
 -Experiment on real tabular data and ImageNet:
     -run: "python IMAGENET.py"
     -run: "python REAL.py"
+
 
