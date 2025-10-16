@@ -90,8 +90,13 @@ and the code from the library torchcp(https://github.com/ml-stat-Sustech/TorchCP
     -run: "python SYNTHETIC.py" to get results on K ∈ {10, 100, 1000}, p = 200
     -run: "python SYNTHETIC.py --k X --p Y" to get results on K = X and p = Y
 
+
+
 -Experiment on real tabular data and ImageNet:
     -run: "python IMAGENET.py"
     -run: "python REAL.py"
 
 
+For the imageNet dataset, it can be downloaded here: https://www.kaggle.com/datasets/titericz/imagenet1k-val
+    J. Deng, W. Dong, R. Socher, L. -J. Li, Kai Li and Li Fei-Fei, "ImageNet: A large-scale hierarchical image database," 2009 IEEE Conference on Computer Vision and            pattern Recognition, Miami, FL, USA, 2009, pp. 248-255, doi: 10.1109/CVPR.2009.5206848.
+    keywords: {Large-scale systems;Image databases;Explosions;Internet;Robustness;Information retrieval;Image retrieval;Multimedia databases;Ontologies;Spine},
