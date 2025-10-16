@@ -376,7 +376,7 @@ if __name__ == "__main__":
 
     # Pretty, grouped print by K with separators
     cols = ["K", "Method", "Coverage", "Conditional coverage", "Length", "Length cover", "local_conditional"]
-    method_order = ["CV+", "Split", "RAPS", "SAPS"]  # adjust if you prefer
+    method_order = ["CV+", "Split", "RAPS", "SAPS"]  
     dec = max(0, int(args.decimals))
 
     for Kval in sorted(df_all["K"].unique()):
