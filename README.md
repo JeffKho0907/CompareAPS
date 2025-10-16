@@ -98,5 +98,8 @@ and the code from the library torchcp(https://github.com/ml-stat-Sustech/TorchCP
 
 
 For the imageNet dataset, it can be downloaded here: https://www.kaggle.com/datasets/titericz/imagenet1k-val
+- Name the file imagenet_val and place it in the experiments folder
+
     J. Deng, W. Dong, R. Socher, L. -J. Li, Kai Li and Li Fei-Fei, "ImageNet: A large-scale hierarchical image database," 2009 IEEE Conference on Computer Vision and            pattern Recognition, Miami, FL, USA, 2009, pp. 248-255, doi: 10.1109/CVPR.2009.5206848.
     keywords: {Large-scale systems;Image databases;Explosions;Internet;Robustness;Information retrieval;Image retrieval;Multimedia databases;Ontologies;Spine},
+
