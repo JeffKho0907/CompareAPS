@@ -13,9 +13,9 @@ Accompanying paper (https://papers.nips.cc/paper/2020/hash/244edd7e85dc81602b761
 
  - `arc/` Python package implementing our methods and some alternative benchmarks.
  - `third_party/` Third-party Python packages imported by our package.
- - `examples/` Jupyter notebooks with introductory usage examples.
- - `experiments_sim_data` Code for the experiments with simulated data discussed in the accompanying paper.
- - `experiments_real_data` Code for the experiments with real data discussed in the accompanying paper.
+ - `SYNTHETIC.py` Code for synthetic data experiment
+ - `REAL.py` Code for real data experiment
+ - `IMAGENET.py` Code for ImageNet experiment
   
 ## Third-party packages
 
@@ -42,11 +42,6 @@ Additional prerequisites for example notebooks:
 
  
 
-## Installation
-
-The development version is available from GitHub:
-
-    git clone https://github.com/msesia/arc.git
 
 ## License
 
@@ -79,3 +74,4 @@ and the code from the library torchcp(https://github.com/ml-stat-Sustech/TorchCP
 -Experiment on real tabular data and ImageNet:
     -run: "python IMAGENET.py"
     -run: "python REAL.py"
+
